@@ -1,0 +1,157 @@
+*{
+    font-family: 'montserrat', 'sans-serif';
+}
+
+body{
+    background-color: #F0DFC8!important;
+    color: #FFF!important;
+}
+
+.primary-bg-color{
+    background-color: #303030;
+    
+}
+
+.secondary-bg-color{
+    background-color: #E16539 !important;
+}
+
+.light-bg-color{
+    background-color: #51ABB2; ;
+}
+
+.dark-bg-color{
+    background-color: red!important;
+}
+
+.primary-color{
+    color: #E16539;
+}
+
+.secondary-color{
+    color: #F0DFC8!important;
+}
+
+.light-color{
+    color: #51ABB2; 
+}
+
+/* NAVBAR estilos */
+
+.logo{
+    width: 100px;
+}
+
+#navbar .navbar-nav{
+    flex-direction:row;
+    justify-content: end;
+}
+
+#navbar .navbar-nav li{
+    margin-left: 1em;
+}
+
+#navbar a,
+#navbar button{
+    color:white;
+}
+
+#navbar li{
+    position:relative;
+}
+
+#navbar i{
+    font-size: 20px;
+}
+
+#navbar span{
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #E16539;
+    text-align: center;
+}
+
+#bag-item span{
+    left: 20px;
+}
+
+.navbar-brand{
+    font-weight:800;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+@media(min-width:768px){
+    .navbar-brand{
+        text-align: left;
+    }
+}
+
+#navbar-items {
+    justify-content: space-between;
+}
+
+
+@media(min-width:768px){
+    #navbar-items{
+        min-width: 80%;
+        display: flex;
+    }
+}
+
+/* barra formulario */
+
+#search-form{
+    width: 100%;
+    margin: 2em 0;
+}
+
+@media(min-width:768px){
+#search-form{
+    width: 50%;
+    margin: 0;
+    }
+}
+
+input::placeholder{
+    color: #F0DFC8!important;
+}
+
+#search-form{
+    border: 2px solid #F0DFC8!important;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+#search-form input{
+     caret-color: #F0DFC8!important; /* Muda a cor do cursor do mouse */
+}
+
+#search-form input{
+    background-color: transparent;
+    border: none;
+}
+
+#search-form input:focus{
+    box-shadow: none;
+}
+
+/* segunda navbar */
+
+#bottom-navbar-container .container{
+    justify-content: flex-end
+}
+
+#bottom-navbar-container a{
+    font-weight: 600;
+    color: #FFF;
+}
+
+.navbar-toggler{
+    font-size: 1.5em;
+}
