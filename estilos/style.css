@@ -11,13 +11,17 @@ body{
     background-color: #303030;
     
 }
+.dark-color{
+    color: #303030;
+    
+}
 
 .secondary-bg-color{
-    background-color: #E16539 !important;
+    background-color: #e16639 !important;
 }
 
 .light-bg-color{
-    background-color: #51ABB2; ;
+    background-color: #51acb2; ;
 }
 
 .dark-bg-color{
@@ -155,3 +159,106 @@ input::placeholder{
 .navbar-toggler{
     font-size: 1.5em;
 }
+
+/* banner */
+
+#banners-container{
+    padding: 0;
+}
+
+.carousel-caption{
+    bottom: 3em;
+    padding: 1.5em;
+    width: 40%;
+    height: 65%;
+   margin-left: auto;
+   
+}
+.carousel-caption h5{
+    font-size:1.5em;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+@media(min-width:768px){
+    #slider-carousel-item,
+    #slider img{
+        height: 700px;
+    }
+    .carousel-caption{
+        bottom: 4em;
+        padding: 1.8em;
+        width: 650px;
+        height: 200px;
+       margin:auto
+    }
+    .carousel-caption h5{
+        font-size:3em;
+    }
+    .carousel-caption p{
+        font-size:1.8em;
+    }
+}
+
+/* minibanners */
+
+#mini-banners{
+    margin-top: -3em;
+    z-index: 10; /*Eixo de profundidade, coloca o item na frente de outro*/
+}
+
+#mini-banners .col-12{
+    z-index: 1;
+    height: 300px;
+    padding: 1.5em;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media(min-width:768px){
+    #mini-banners .col-12{
+        max-width: 30%;
+    }
+}
+
+#mini-banners .col-12 h2{
+    text-transform: uppercase;
+    max-width: 50px;
+    font-size: 2.2em;
+    font-weight: 700;
+    line-height: 1em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.156);
+}
+
+#mini-banners .col-12 img{
+    height: 220px;
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+}
+
+#mini-banners .col-12 a{
+    font-weight: bold;
+    color: #FFF;
+    font-size: .8em;
+    transition: .5s;
+    z-index: 15;
+    font-size: 20px;
+}
+#mini-banners .col-12 a:hover{
+    font-weight: bold;
+    color: #101010;
+}
+
+#mini-banners #mini-banner-1 a:hover{
+    color: #51ABB2;
+}
+#mini-banners #mini-banner-2 a:hover{
+    color: #303030;
+}
+#mini-banners #mini-banner-3 a:hover{
+    color: #51ABB2;
+}
+
