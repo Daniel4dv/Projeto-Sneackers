@@ -1,2 +1,2 @@
 # Projeto-Sneackers
- Projeto usando bootstrap
+ Projeto de uma loja virtual de sneackers desenvolvito e idealizado por mim, usando bootstrap como principal ferramenta
